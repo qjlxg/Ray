@@ -1,7 +1,6 @@
 
 <!-- USAGE -->
-## Usage
-## Contact
+
 forked from miladtahanian/V2RayCFGDumper: [https://github.com/miladtahanian/V2RayCFGDumper/](https://github.com/miladtahanian/V2RayCFGDumper/)
 
 Milad Tahanian - [Telegram](https://t.me/miladtahanian) | [Instagram](https://instagram.com/tahanianmilad) | [MailMe](mailto:miladtahanianofficial@gmail.com)
