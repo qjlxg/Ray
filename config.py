@@ -1204,8 +1204,8 @@ for page in html_pages:
 
     for code_tag in code_tags:
         code_content = code_tag.text.strip()
-        if "vless://" in code_content or "ss://" in code_content or "vmess://" in code_content or "trojan://" in code_content:
-            codes.append(code_content)
+        if "vless://" in code_content or "ss://" in code_content or "vmess://" in code_content or "trojan://" in code_content or "tuic://" in code_content or "hysteria://" in code_content or "hy2://" in code_content or "hysteria2://" in code_content or "juicity://" in code_content or "nekoray://" in code_content or "socks4://" in code_content or "socks5://" in code_content or "socks://" in code_content or "naive+" in code_content:
+           codes.append(code_content)
 
 codes = list(set(codes))  # Remove duplicates
 
