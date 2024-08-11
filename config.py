@@ -31,7 +31,7 @@ webpage_addresses = [
     "https://t.me/s/kingspeedchanel",
     "https://t.me/s/VPN_Xpace",
     "https://t.me/s/SVNTEAM",
-    "https://t.me/s/WPSNET"，
+    "https://t.me/s/WPSNET",
     "https://t.me/s/AAK_VPN",
 "https://t.me/s/ABEDCONFIGPLUSE",
 "https://t.me/s/ACCOUNTPLANETIR",
