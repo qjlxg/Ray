@@ -1333,6 +1333,7 @@ new_processed_codes = []
 for code in processed_codes:
     vmess_parts = code.split("vmess://")
     vless_parts = code.split("vless://")
+	
 
     for part in vmess_parts + vless_parts:
         if "ss://" in part or "vmess://" in part or "vless://" in part or "trojan://" in part:
@@ -1344,9 +1345,9 @@ i = 0
 with open("config.txt", "w", encoding="utf-8") as file:
     for code in new_processed_codes:
         if i == 0:
-            config_string = "#🌐 به روزرسانی شده در" + final_string + " | هر 15 دقیقه کانفیگ جدید داریم"
+            config_string = "#🌐" + final_string + " | "
         else:
-            config_string = "#🌐سرور " + str(i) + " | " + str(final_others_string) + "| 77"
+            config_string = "#🌐" + str(i) + " | " + str(final_others_string) + "| "
         config_final = code + config_string
         file.write(config_final + "\n")
         i += 1
